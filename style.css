@@ -1,0 +1,364 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+
+hr {
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  display: flex;
+  padding-top: 5%;
+  justify-content: space-between;
+}
+
+.hero {
+  width: 100%;
+  margin-top: 5%;
+  position: relative;
+}
+
+.hero-text {
+  padding-left: 5%;
+  width: 70%;
+}
+.hero-text h2 {
+  color: red;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+  padding: 10% 0;
+}
+.hero-text h1 {
+  font-weight: 900;
+  font-size: 40px;
+  padding: 2% 0;
+}
+.hero-text p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 15% 0;
+}
+.hero-text button {
+  width: 188px;
+  height: 75px;
+  border-radius: 35px;
+  color: black;
+  font-weight: 900;
+  border: 4px solid;
+  border-color: red;
+  background: white;
+}
+
+.hero-img img {
+  position: absolute;
+  height: 400px;
+  width: 350px;
+  top: 50px;
+  left: 200px;
+}
+
+.upsell {
+  margin-top: 15%;
+  height: 300px;
+  background-image: url(img/background.svg);
+  background-repeat: no repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.upsell h2 {
+  margin-left: 5%;
+  padding-bottom: 5%;
+  font-size: 40px;
+  font-weight: 500;
+}
+.upsell p {
+  margin-left: 5%;
+  padding-bottom: 5%;
+  font-weight: 400;
+  size: 20px;
+  line-height: 30px;
+}
+
+.press {
+  margin-top: 15%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.press img {
+  width: 130px;
+  height: 70px;
+  justify-self: center;
+}
+
+.showcase {
+  padding-top: 15%;
+  padding-left: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.showcase h2 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+}
+.showcase p {
+  padding-top: 5%;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+.cards {
+  margin-left: 5%;
+  margin-top: 5%;
+  gap: 2%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 1280;
+  margin-bottom: 100px;
+}
+.cards .card {
+  width: 290px;
+  height: 400px;
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  border-radius: 15px;
+}
+.cards .card-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 15px;
+  background-color: rgb(230, 227, 227);
+}
+
+.card-info-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10%;
+  padding-left: 20%;
+}
+.card-info-left .card-series p {
+  color: orange;
+}
+.card-info-left .card-name p {
+  font-weight: 700;
+}
+
+.card-info-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 10%;
+  padding-right: 20%;
+}
+.card-info-right .card-price {
+  display: flex;
+  gap: 10px;
+}
+.card-info-right .card-price p {
+  font-weight: 700;
+}
+
+.cards .card-2 {
+  display: none;
+}
+.cards .card-3 {
+  display: none;
+}
+.cards .card-4 {
+  display: none;
+}
+
+.hero-2-bottom {
+  width: 100%;
+  margin-top: 5%;
+  position: relative;
+}
+.hero-2-bottom .hero-text-bottom {
+  margin-bottom: 50px;
+  padding-left: 5%;
+  width: 50%;
+}
+.hero-2-bottom .hero-text-bottom h2 {
+  color: red;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+  padding: 10% 0;
+}
+.hero-2-bottom .hero-text-bottom h1 {
+  font-weight: 900;
+  font-size: 40px;
+  padding: 2% 0;
+}
+.hero-2-bottom .hero-text-bottom p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 15% 0;
+}
+.hero-2-bottom .hero-text-bottom button {
+  width: 188px;
+  height: 75px;
+  border-radius: 35px;
+  color: black;
+  font-weight: 900;
+  border: 4px solid;
+  border-color: red;
+  background: white;
+}
+
+.hero-img-bottom img {
+  position: absolute;
+  width: 200px;
+  left: 230px;
+  top: 130px;
+}
+
+.footer-logo {
+  margin-bottom: 20px;
+  margin-left: 5%;
+}
+.footer-logo img {
+  margin-bottom: 20px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 5%;
+  gap: 15px;
+  color: gray;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.footer-title {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.footer-section-1 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 20px;
+  margin-left: 5%;
+}
+.footer-section-1 ul {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.footer-section-1 ul li {
+  list-style: none;
+  padding-top: 10px;
+}
+.footer-section-1 ul li a {
+  text-decoration: none;
+  color: gray;
+  font-weight: 500;
+}
+
+.footer-section-2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 20px;
+  margin-left: 5%;
+  margin-bottom: 50px;
+}
+.footer-section-2 li {
+  list-style: none;
+  padding-top: 10px;
+}
+.footer-section-2 li a {
+  text-decoration: none;
+  color: gray;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 500px) {
+  .header {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .hero-text {
+    width: 50%;
+  }
+  .hero-text h2 {
+    padding: 5%;
+  }
+  .hero-text h1 {
+    padding: 0;
+  }
+  .upsell {
+    height: 200px;
+  }
+  .press {
+    margin-top: 7%;
+  }
+  .showcase {
+    padding-top: 9%;
+    display: flex;
+    justify-content: center;
+  }
+  .showcase h2 {
+    text-align: center;
+  }
+  .showcase p {
+    text-align: center;
+  }
+  .cards {
+    margin-left: 20%;
+  }
+  .hero-img-bottom img {
+    left: 307px;
+    top: 61px;
+  }
+  .footer-logo {
+    margin-left: 30%;
+  }
+  .social-media {
+    margin-left: 37%;
+  }
+  .footer-section-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer-section-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .section-left {
+    justify-self: center;
+  }
+}
+@media screen and (min-width: 600px) {
+  .hero-img img {
+    height: 397px;
+    width: 415px;
+    top: 4px;
+    left: 232px;
+  }
+  .hero-img-bottom img {
+    left: 311px;
+    top: 55px;
+  }
+}/*# sourceMappingURL=style.css.map */
