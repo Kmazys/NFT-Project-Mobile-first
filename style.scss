@@ -418,3 +418,90 @@ header {
     top: 75px;
   }
 }
+
+@media screen and (min-width: 1000px) {
+  .hero {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .hero-img img {
+    display: grid;
+    position: unset;
+  }
+
+  .upsell {
+    margin-top: 7%;
+    height: 231px;
+  }
+
+  .upsell h2 {
+    margin-left: 5%;
+    padding-bottom: 1%;
+  }
+
+  .upsell p {
+    font-size: 25px;
+    padding-bottom: 2%;
+  }
+
+  .press {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .showcase {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .showcase p {
+    padding-top: 3%;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .hero-2-bottom {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 1%;
+  }
+
+  .hero-img-bottom img {
+    position: unset;
+    justify-self: center;
+  }
+
+  .hero-2-bottom .hero-text-bottom {
+    margin-top: 6%;
+  }
+
+  .hero-2-bottom .hero-text-bottom h2 {
+    padding: 2% 0;
+  }
+
+  .hero-2-bottom .hero-text-bottom p {
+    line-height: 30px;
+    padding: 5% 0;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    margin-bottom: 200px;
+  }
+
+  .social-media {
+    grid-row: 2;
+    margin-left: 4%;
+  }
+
+  .footer-logo {
+    margin-left: 3%;
+  }
+}
