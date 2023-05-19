@@ -361,4 +361,30 @@ header {
     left: 311px;
     top: 55px;
   }
+}
+@media screen and (min-width: 700px) {
+  .hero-text p {
+    padding: 4% 0;
+  }
+  .cards {
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .cards .card-2 {
+    display: grid;
+  }
+  .cards .card-3 {
+    display: grid;
+  }
+  .cards .card-4 {
+    display: grid;
+  }
+  .hero-img img {
+    left: 319px;
+  }
+  .hero-img-bottom img {
+    left: 370px;
+    top: 75px;
+  }
 }/*# sourceMappingURL=style.css.map */
